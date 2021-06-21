@@ -1,0 +1,8 @@
+CurrencyIsoCode,Description,IsActive,IsStandard,Name
+USD,,TRUE,FALSE,Legacy Finisar Products
+USD,,TRUE,FALSE,Legacy Photonics Products
+USD,,TRUE,FALSE,Legacy Marlow Products
+USD,,TRUE,FALSE,Legacy II-VI Products
+USD,,TRUE,FALSE,Legacy II-VI Military Products
+USD,,TRUE,FALSE,Legacy II-VI Epiworks Products
+USD,"Contains ALL available Parts",TRUE,TRUE,Standard Price Book

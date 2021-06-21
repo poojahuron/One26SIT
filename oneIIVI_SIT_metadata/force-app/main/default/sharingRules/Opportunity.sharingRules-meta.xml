@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Give_ViewAll_Access_to_Opportunity</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Give ViewAll Access to Opportunity</label>
+        <sharedTo>
+            <role>PLM</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>CreatedById</field>
+            <operation>notEqual</operation>
+            <value>null</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Business_Unit__c</field>
+            <operation>notEqual</operation>
+            <value>WSS</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Sharing_Oppty_record_with_VP_of_APAC</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Sharing Oppty record with VP of APAC</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>VP_APAC</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>Region__c</field>
+            <operation>equals</operation>
+            <value>APAC</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Business_Unit__c</field>
+            <operation>notEqual</operation>
+            <value>WSS</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Sharing_Oppty_record_with_VP_of_Japan</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Sharing Oppty record with VP of Japan</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>VP_JAPAN</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>Region__c</field>
+            <operation>equals</operation>
+            <value>JAPAN</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Business_Unit__c</field>
+            <operation>notEqual</operation>
+            <value>WSS</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Sharing_Oppty_record_with_Vp_of_a_America_Estern</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Sharing Oppty record with Vp of a America Estern</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>VP_americas_eastern</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>Region__c</field>
+            <operation>equals</operation>
+            <value>AMERICAS - EASTERN</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Business_Unit__c</field>
+            <operation>notEqual</operation>
+            <value>WSS</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Sharing_Oppty_record_with_Vp_of_a_EMEA</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Sharing Oppty record with Vp of a EMEA</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>VP_EMEA</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>Region__c</field>
+            <operation>equals</operation>
+            <value>EMEA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Business_Unit__c</field>
+            <operation>notEqual</operation>
+            <value>WSS</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Sharing_Oppty_record_with_Vp_of_a_region</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Sharing Oppty record with Vp of a America Western</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>VP_americas_western</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>Region__c</field>
+            <operation>equals</operation>
+            <value>AMERICAS - WESTERN</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Business_Unit__c</field>
+            <operation>notEqual</operation>
+            <value>WSS</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>

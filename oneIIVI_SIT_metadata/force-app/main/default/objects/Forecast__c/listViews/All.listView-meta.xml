@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>Quarter__c</columns>
+    <columns>Item__c</columns>
+    <columns>Item_Description__c</columns>
+    <columns>Business_Unit__c</columns>
+    <columns>Customer__c</columns>
+    <columns>Actual_Units__c</columns>
+    <columns>Actual_Revenue__c</columns>
+    <columns>RSM_Forecast_Unit__c</columns>
+    <columns>RSM_Forecast_Revenue__c</columns>
+    <columns>RSM_Approved_Units__c</columns>
+    <columns>RSM_Approved_Revenue__c</columns>
+    <columns>PLM_Forecast_Units__c</columns>
+    <columns>PLM_Forecast_Revenue__c</columns>
+    <columns>PLM_Approved_Revenue__c</columns>
+    <columns>PLM_Approved_Units__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Business_Unit__c</field>
+        <operation>equals</operation>
+        <value>WSS</value>
+    </filters>
+    <label>All</label>
+</ListView>
