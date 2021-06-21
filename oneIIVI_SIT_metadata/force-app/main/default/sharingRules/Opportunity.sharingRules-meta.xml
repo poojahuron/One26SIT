@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <sharingCriteriaRules>
+        <fullName>All_Opps_Share_with_CS</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>All Opps. (Opp. Name not equal to NULL) to be shared with Custom Service Public Group.</description>
+        <label>All Opps. Share with CS</label>
+        <sharedTo>
+            <group>Customer_Service</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>notEqual</operation>
+            <value>NULL</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Epiworks</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Epiworks</label>
+        <sharedTo>
+            <group>Epiworks_LS_Visibility</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Segment__c</field>
+            <operation>equals</operation>
+            <value>Epiworks</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
         <fullName>Give_ViewAll_Access_to_Opportunity</fullName>
         <accessLevel>Read</accessLevel>
         <label>Give ViewAll Access to Opportunity</label>
@@ -16,6 +43,19 @@
             <field>Business_Unit__c</field>
             <operation>notEqual</operation>
             <value>WSS</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Highyag_back_to_HQ</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Highyag back to HQ</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Head_of_Sales_Highyag</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>Segment__c</field>
+            <operation>equals</operation>
+            <value>HighYag</value>
         </criteriaItems>
     </sharingCriteriaRules>
     <sharingCriteriaRules>
@@ -108,4 +148,100 @@
             <value>WSS</value>
         </criteriaItems>
     </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Telecom</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Telecom</label>
+        <sharedTo>
+            <group>Telecom</group>
+        </sharedTo>
+        <booleanFilter>1 or 2</booleanFilter>
+        <criteriaItems>
+            <field>Sales_Type__c</field>
+            <operation>equals</operation>
+            <value>20CH - TELECOM CHINA,20G - TELECOM GERMANY,20JP - TELECOM II-VI JAPAN SALES,20 - TELECOM,20VN - TELECOM DIRECT SHIP FROM VIETNAM</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Market__c</field>
+            <operation>equals</operation>
+            <value>20 - Telecommunications</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>All_Europe</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>All Europe</label>
+        <sharedTo>
+            <group>All_Europe</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>All_Europe</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Chris_Leow_Visibility</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Chris Leow Visibility</label>
+        <sharedTo>
+            <group>Singapore_Korea_Taiwan_Reg_Mgrs</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Singapore_Korea_Taiwan</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>DEU_see_all_EMEA</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>DEU see all EMEA</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>German_Sales_Rep</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <group>EMEA</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Directors</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Directors</label>
+        <sharedTo>
+            <group>Directors</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>GM</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Germany_Opp_Sharing</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Germany Opp Sharing</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>German_Sales_Rep</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>German_Sales_Rep</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>IT_Admin</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>IT Admin</label>
+        <sharedTo>
+            <role>IT</role>
+        </sharedTo>
+        <sharedFrom>
+            <group>SystemAdministrators</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>JapanSalesMgrA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Japan Sales MgrA</label>
+        <sharedTo>
+            <role>JapanSalesMgr</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>JapanAccountManager</role>
+        </sharedFrom>
+    </sharingOwnerRules>
 </SharingRules>
