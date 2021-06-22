@@ -1297,11 +1297,11 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>rh2__Test_Utility</apexClass>
+        <apexClass>rh2__SuperSort</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>rh2__superSort</apexClass>
+        <apexClass>rh2__Test_Utility</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -1997,6 +1997,11 @@
         <editable>true</editable>
         <field>Account.Website</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.rh2__testCurrency__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>

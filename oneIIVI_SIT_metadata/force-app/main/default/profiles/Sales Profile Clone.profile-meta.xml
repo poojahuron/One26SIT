@@ -13,82 +13,82 @@
     <applicationVisibilities>
         <application>Lead_Generation</application>
         <default>false</default>
-        <visible>false</visible>
+        <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>One_IIVI_Sales_App</application>
         <default>false</default>
-        <visible>false</visible>
+        <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>Relationship_Management</application>
         <default>false</default>
-        <visible>false</visible>
+        <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>Sales_Leadership</application>
         <default>false</default>
-        <visible>false</visible>
+        <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>Sales_Operations</application>
         <default>false</default>
-        <visible>false</visible>
+        <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__AllTabSet</application>
         <default>false</default>
-        <visible>false</visible>
+        <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__AppLauncher</application>
         <default>false</default>
-        <visible>false</visible>
+        <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__Chatter</application>
         <default>false</default>
-        <visible>false</visible>
+        <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__Community</application>
         <default>false</default>
-        <visible>false</visible>
+        <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__LightningSales</application>
         <default>false</default>
-        <visible>false</visible>
+        <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__LightningSalesConsole</application>
         <default>false</default>
-        <visible>false</visible>
+        <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__LightningService</application>
         <default>false</default>
-        <visible>false</visible>
+        <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__Marketing</application>
         <default>false</default>
-        <visible>false</visible>
+        <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__OnlineSales</application>
         <default>false</default>
-        <visible>false</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
-        <application>standard__Platform</application>
-        <default>true</default>
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>standard__Sales</application>
+        <application>standard__Platform</application>
         <default>false</default>
         <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Sales</application>
+        <default>true</default>
+        <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__SalesforceCMS</application>
@@ -98,7 +98,7 @@
     <applicationVisibilities>
         <application>standard__Service</application>
         <default>false</default>
-        <visible>false</visible>
+        <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__ServiceConsole</application>
@@ -997,7 +997,7 @@
         <apexClass>trgUpdateLeadStatusTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <custom>false</custom>
+    <custom>true</custom>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.AR_Amount_Rollup__c</field>
@@ -1491,12 +1491,12 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Sales_Channel_Code__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Sales_Channel_Display_Code__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -1889,9 +1889,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Case.Advance_Replacement__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -1904,9 +1904,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Case.Assigned_RMA_Admin__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -2319,9 +2319,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Case.Resolution__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -2459,9 +2459,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Case.Validation_Status__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -2674,9 +2674,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Contact.Contact_Type__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -3821,7 +3821,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>FA_FV_Analysis__c.FV_Result__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -3874,14 +3874,14 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>FA_FV_Analysis__c.Parent_Legacy_id__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>FA_FV_Analysis__c.Primary_Failure__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -3946,7 +3946,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>FA_FV_Analysis__c.Tertiary_Failure__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -4146,17 +4146,17 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Forecast__c.Current_User_Is_PLM__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Forecast__c.Current_User_is_RSM__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Forecast__c.Current_User_is_VP__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -5136,12 +5136,12 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Loaner__c.Current_User_is_RSM__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Loaner__c.Current_User_is_VP__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -5411,7 +5411,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Loaner__c.SO_Number__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -5766,12 +5766,12 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Current_User_is_RSM__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Current_User_is_VP__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -6166,7 +6166,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Sales_Channel_DisplayCode__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -6764,9 +6764,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Order.Legacy_RMA_Request__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -6809,9 +6809,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Order.Order_Amount__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -7236,12 +7236,12 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Order_Line__c.Current_User_is_RSM__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Order_Line__c.Current_User_is_VP__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -7276,7 +7276,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Order_Line__c.Cutoff_Flag__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -7324,9 +7324,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Order_Line__c.End_Customer_Name__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -7696,7 +7696,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Order_Line__c.RMA_Number__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -8186,7 +8186,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Product2.Current_User_Is_PLM__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -8276,7 +8276,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Product2.External_Product_Code__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -8359,9 +8359,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Product2.Marketing_Family__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -8511,7 +8511,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Product2.Sourcing_Org__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -9024,9 +9024,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Quote.OwnerEmail__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -9201,17 +9201,17 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Quote.Sales_Channel_Account_Name__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Quote.Sales_Channel_Code__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Quote.Sales_Channel_DisplayCode__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -9326,7 +9326,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>QuoteLineItem.BU__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -9436,7 +9436,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Quote_Item__c.BU__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -9874,9 +9874,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>RMA_Request_Line__c.End_Customer__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -10271,7 +10271,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Serial_Number__c.Aging_Days__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -10529,9 +10529,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Serial_Number__c.RMA_Completion_Date_Text__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -10799,9 +10799,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>User.Email_External_Id__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -11203,29 +11203,29 @@
     </flowAccesses>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Account-Account Layout</layout>
-        <recordType>Account.Account</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Account-Account Layout</layout>
-        <recordType>Account.Distributor_Rep_Account</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Account-Account Layout</layout>
-        <recordType>Account.External_Account</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Account-Account Layout</layout>
-        <recordType>Account.Global_Parent</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Account-Account Layout</layout>
         <recordType>Account.Party_Account</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Account-Account Layout</layout>
+        <layout>Account-Customer Account Page Layout</layout>
+        <recordType>Account.Account</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-Distributor %2FRep Account</layout>
+        <recordType>Account.Distributor_Rep_Account</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-FNSR Account Page layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-FNSR Account Page layout</layout>
+        <recordType>Account.External_Account</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-FNSR Account Page layout</layout>
+        <recordType>Account.Global_Parent</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account-FNSR Site Page Layout</layout>
         <recordType>Account.Site</recordType>
     </layoutAssignments>
     <layoutAssignments>
@@ -11286,7 +11286,7 @@
         <recordType>Case.RA_Case</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Case-Case Layout</layout>
+        <layout>Case-RMA Request</layout>
         <recordType>Case.RMA_Request</recordType>
     </layoutAssignments>
     <layoutAssignments>
@@ -11344,14 +11344,14 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Costing__c-Corp II-VI Costing Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Costing__c-Corp II-VI Costing Layout</layout>
         <recordType>Costing__c.Corp_II_VI_Costing</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Costing__c-Corp II-VI Costing Layout</layout>
         <recordType>Costing__c.Marlow_Costing</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Costing__c-Costing Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CountryMapping__mdt-CountryMapping Layout</layout>
@@ -11376,7 +11376,7 @@
         <recordType>Disposition_Transfer_Details__c.Disposition</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Disposition_Transfer_Details__c-Disposition Details</layout>
+        <layout>Disposition_Transfer_Details__c-Transfer Details</layout>
         <recordType>Disposition_Transfer_Details__c.Transfer</recordType>
     </layoutAssignments>
     <layoutAssignments>
@@ -11399,7 +11399,7 @@
         <recordType>FA_FV_Analysis__c.FA_Analysis</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>FA_FV_Analysis__c-FA Analysis Layout</layout>
+        <layout>FA_FV_Analysis__c-FV Analysis Layout</layout>
         <recordType>FA_FV_Analysis__c.FV_Analysis</recordType>
     </layoutAssignments>
     <layoutAssignments>
@@ -11410,7 +11410,7 @@
         <recordType>FA_FV_Detail__c.FA_FV_Detail</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>FA_FV_Detail__c-FA %2F FV Detail Layout</layout>
+        <layout>FA_FV_Detail__c-FA %2F FV Detail Readonly Layout</layout>
         <recordType>FA_FV_Detail__c.FA_FV_Detail_Readonly</recordType>
     </layoutAssignments>
     <layoutAssignments>
@@ -11453,41 +11453,41 @@
         <layout>Lead-Lead Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Loaner_Line__c-Loaner Line Layout</layout>
+        <layout>Loaner_Line__c-Extension Layout</layout>
+        <recordType>Loaner_Line__c.Extension_Item</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Loaner_Line__c-Loaner Line Layout</layout>
-        <recordType>Loaner_Line__c.Extension_Item</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Loaner_Line__c-Loaner Line Layout</layout>
         <recordType>Loaner_Line__c.Loaner_Item</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Loaner_Line__c-Loaner Line Layout</layout>
-        <recordType>Loaner_Line__c.Loaner_Item_Pending_Sales_Record_Type</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Loaner_Line__c-Loaner Line Layout</layout>
+        <layout>Loaner_Line__c-Loaner Line Read Only</layout>
         <recordType>Loaner_Line__c.Loaner_Item_Read_Only</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Loaner__c-Loaner Layout</layout>
+        <layout>Loaner_Line__c-Loaner Line Read Only w%2Fo Product</layout>
+        <recordType>Loaner_Line__c.Loaner_Item_Pending_Sales_Record_Type</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Loaner__c-Loaner Layout</layout>
+        <layout>Loaner__c-Loaner Extension Layout</layout>
         <recordType>Loaner__c.Loaner_Extension</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Loaner__c-Loaner Layout</layout>
+        <layout>Loaner__c-Loaner Extension Read Only Layout</layout>
         <recordType>Loaner__c.Loaner_Extension_Read_Only</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Loaner__c-Loaner Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Loaner__c-Loaner Layout</layout>
         <recordType>Loaner__c.Loaner_Request</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Loaner__c-Loaner Layout</layout>
+        <layout>Loaner__c-Loaner Read Only Layout</layout>
         <recordType>Loaner__c.Loaner_Request_Read_Only</recordType>
     </layoutAssignments>
     <layoutAssignments>
@@ -11548,15 +11548,15 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Order-Order Layout</layout>
+        <recordType>Order.Sales_Order</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Order-PoS Layout</layout>
         <recordType>Order.PoS_Order</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Order-Order Layout</layout>
+        <layout>Order-RMA Layout</layout>
         <recordType>Order.RMA_Order</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Order-Order Layout</layout>
-        <recordType>Order.Sales_Order</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>OrderItem-Order Product Layout</layout>
@@ -11565,15 +11565,15 @@
         <layout>OrderRatePlan__c-Order Rate Plan Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Order_Line__c-Sales Order Line Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Order_Line__c-Sales Order Line Layout</layout>
+        <layout>Order_Line__c-POS Line Layout</layout>
         <recordType>Order_Line__c.POS_Order_Line</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Order_Line__c-Sales Order Line Layout</layout>
+        <layout>Order_Line__c-RMA Line Layout</layout>
         <recordType>Order_Line__c.RMA_Order_Line</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Order_Line__c-Sales Order Line Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Order_Line__c-Sales Order Line Layout</layout>
@@ -11581,6 +11581,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Ordered_BOM_Parts__c-Ordered BOM Parts Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Outlook-Finisar Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>PLM_Approval_Matrix__mdt-PLM Approval Matrix Layout</layout>
@@ -11620,15 +11623,15 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Quote-Quote Layout</layout>
-        <recordType>Quote.Quote_Read_Only</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Quote-Quote Layout</layout>
         <recordType>Quote.Quote_Record_Type</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Quote-Quote Layout</layout>
         <recordType>Quote.Transfer_Quote</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Quote-Quote Read Only Layout</layout>
+        <recordType>Quote.Quote_Read_Only</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>QuoteLineItem-Quote Line Item Layout</layout>
@@ -11721,6 +11724,105 @@
     <layoutAssignments>
         <layout>WorkThanks-Thanks Layout</layout>
     </layoutAssignments>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Account</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Asset</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Case</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Contact</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Contract</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Lead</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Opportunity</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Order</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Pricebook2</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Product2</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Quote</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
     <pageAccesses>
         <apexPage>AccountLookupPage</apexPage>
         <enabled>false</enabled>
@@ -12013,9 +12115,9 @@
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <default>false</default>
+        <default>true</default>
         <recordType>Loaner_Line__c.Loaner_Item</recordType>
-        <visible>false</visible>
+        <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
@@ -12038,9 +12140,9 @@
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <default>false</default>
+        <default>true</default>
         <recordType>Loaner__c.Loaner_Request</recordType>
-        <visible>false</visible>
+        <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
@@ -12124,49 +12226,57 @@
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>standard-Account</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Asset</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Case</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Contact</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Contract</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Event</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Lead</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Opportunity</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Order</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Pricebook2</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Product2</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Quote</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    <userLicense>Guest User License</userLicense>
+    <tabVisibilities>
+        <tab>standard-Task</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
         <name>ActivitiesAccess</name>
@@ -12177,7 +12287,39 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ApexRestServices</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ApiEnabled</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CanUseNewDashboardBuilder</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChangeDashboardColors</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterEditOwnPost</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ChatterEnabledForUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterFileLink</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterInternalUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterOwnGroups</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -12185,15 +12327,91 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>EnableCommunityAppLauncher</name>
+        <name>CreateCustomizeDashboards</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>EnableNotifications</name>
+        <name>CreateCustomizeFilters</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>PasswordNeverExpires</name>
+        <name>CreateCustomizeReports</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateDashboardFolders</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateReportFolders</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateReportInLightning</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>DistributeFromPersWksp</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditEvent</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditOppLineItemUnitPrice</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditTask</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ExportReport</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>FeedPinning</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>LightningConsoleAllowedForUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>LightningExperienceUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageDynamicDashboards</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageSharing</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>NewReportBuilder</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>PreventClassicExperience</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>RunFlow</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>RunReports</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ScheduleJob</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ScheduleReports</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -12205,6 +12423,26 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>SubscribeToLightningDashboards</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SubscribeToLightningReports</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>UseWebLink</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewCaseInteraction</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewHelpLink</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewTrustMeasures</name>
     </userPermissions>
 </Profile>

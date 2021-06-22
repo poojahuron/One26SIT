@@ -411,6 +411,14 @@
         <valueField>Id</valueField>
     </dynamicChoiceSets>
     <dynamicChoiceSets>
+        <name>DisplayCountry</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>Display_Shipping_Country__c</picklistField>
+        <picklistObject>Account</picklistObject>
+    </dynamicChoiceSets>
+    <dynamicChoiceSets>
         <name>OpportunityRecordType</name>
         <dataType>String</dataType>
         <displayField>Name</displayField>
@@ -533,6 +541,12 @@
             <field>BillingStreet</field>
             <value>
                 <elementReference>GlobalBillingAddress.street</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Display_Shipping_Country__c</field>
+            <value>
+                <elementReference>Customer_Account_Display_Shipping_Country</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -746,6 +760,7 @@
         <object>RecordType</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
+    <runInMode>SystemModeWithSharing</runInMode>
     <screens>
         <name>Initial_Creation_Screen</name>
         <label>Initial Creation Screen</label>
@@ -787,11 +802,6 @@
                     <fieldText>Account Name</fieldText>
                     <fieldType>InputField</fieldType>
                     <isRequired>true</isRequired>
-                    <validationRule>
-                        <errorMessage>&lt;p&gt;You cannot update the Account name&lt;/p&gt;</errorMessage>
-                        <formulaExpression>AND( NOT(ISBLANK({!getAccount.Name})), NOT(ISBLANK({!varGlobalAccountId}))
-)</formulaExpression>
-                    </validationRule>
                 </fields>
                 <fields>
                     <name>GlobalBillingAddress</name>
@@ -862,6 +872,17 @@
                     <fieldText>Create Customer/Top Level Account?</fieldText>
                     <fieldType>InputField</fieldType>
                     <isRequired>true</isRequired>
+                </fields>
+                <fields>
+                    <name>Customer_Account_Display_Shipping_Country</name>
+                    <choiceReferences>DisplayCountry</choiceReferences>
+                    <dataType>String</dataType>
+                    <defaultValue>
+                        <stringValue>United States</stringValue>
+                    </defaultValue>
+                    <fieldText>Customer Account Display Shipping Country</fieldText>
+                    <fieldType>DropdownBox</fieldType>
+                    <isRequired>false</isRequired>
                 </fields>
                 <fields>
                     <name>Create_Opportunity</name>
@@ -1116,7 +1137,7 @@
             <targetReference>getRecT</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
     <variables>
         <name>recordId</name>
         <dataType>String</dataType>

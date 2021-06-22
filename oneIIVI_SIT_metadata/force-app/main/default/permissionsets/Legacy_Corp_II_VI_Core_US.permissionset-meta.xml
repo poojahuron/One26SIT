@@ -53,7 +53,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Amada_Lasers__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -213,7 +213,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.First_Laser_Added__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -343,7 +343,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Latest_Laser_Update__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -373,7 +373,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Mazak_Cin_Lasers__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -423,7 +423,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Other_Lasers_Owned__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -643,7 +643,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Trumpf_Lasers__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -668,6 +668,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Website</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.rh2__testCurrency__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4676,9 +4681,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Opportunity.Contract_Review_Checklist_Completed__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -4943,7 +4948,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Opp_ID__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -9552,4 +9557,8 @@
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Legacy Corp II-VI Core US</label>
+    <recordTypeVisibilities>
+        <recordType>Opportunity.Aftermarket</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
 </PermissionSet>

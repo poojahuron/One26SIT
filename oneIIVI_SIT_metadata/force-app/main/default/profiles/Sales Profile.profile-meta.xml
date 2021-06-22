@@ -1321,12 +1321,12 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Key_AccountFormula__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Account.Key_Account__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -1667,6 +1667,11 @@
         <editable>false</editable>
         <field>Account.Website</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.rh2__testCurrency__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -11345,14 +11350,14 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Costing__c-Corp II-VI Costing Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Costing__c-Corp II-VI Costing Layout</layout>
         <recordType>Costing__c.Corp_II_VI_Costing</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Costing__c-Corp II-VI Costing Layout</layout>
         <recordType>Costing__c.Marlow_Costing</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Costing__c-Costing Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CountryMapping__mdt-CountryMapping Layout</layout>
