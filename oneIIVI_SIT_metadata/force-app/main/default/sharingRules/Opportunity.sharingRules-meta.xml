@@ -167,6 +167,19 @@
             <value>20 - Telecommunications</value>
         </criteriaItems>
     </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Zurich_Visibility_to_LE</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Zurich Visibility to LE</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Laser_Enterprise</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>Segment__c</field>
+            <operation>equals</operation>
+            <value>Laser Enterprise</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
     <sharingOwnerRules>
         <fullName>All_Europe</fullName>
         <accessLevel>Edit</accessLevel>

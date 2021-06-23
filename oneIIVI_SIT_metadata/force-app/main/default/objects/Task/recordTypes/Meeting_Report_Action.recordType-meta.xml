@@ -277,10 +277,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Meeting Report Task</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Other</fullName>
             <default>false</default>
         </values>
@@ -301,10 +297,6 @@
         </values>
         <values>
             <fullName>Meeting</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Meeting Report Task</fullName>
             <default>false</default>
         </values>
         <values>

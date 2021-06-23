@@ -415,7 +415,7 @@
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>QuoteRealTimeEndPoint</shortDescription>
-        <value>https://na1.ai.dm-us.informaticacloud.com/active-bpel/public/soap/4BZsKAXNtrmklJMYWAgEiS/prc_cai_quote_main</value>
+        <value>https://na1.ai.dm-us.informaticacloud.com/active-bpel/public/soap/2yrnmaQUm2fiMBfHxHZd0l/prc_cai_quote_main</value>
     </labels>
     <labels>
         <fullName>RMARealTimeEndPoint</fullName>

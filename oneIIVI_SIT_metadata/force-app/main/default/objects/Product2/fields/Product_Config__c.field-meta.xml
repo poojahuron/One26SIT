@@ -46,14 +46,14 @@
                 <label>BROADWAY</label>
             </value>
             <value>
-                <fullName>CADDO</fullName>
-                <default>false</default>
-                <label>CADDO</label>
-            </value>
-            <value>
                 <fullName>C-COR</fullName>
                 <default>false</default>
                 <label>C-COR</label>
+            </value>
+            <value>
+                <fullName>CADDO</fullName>
+                <default>false</default>
+                <label>CADDO</label>
             </value>
             <value>
                 <fullName>CWDMPASS</fullName>
@@ -74,11 +74,6 @@
                 <fullName>FIRA</fullName>
                 <default>false</default>
                 <label>FIRA</label>
-            </value>
-            <value>
-                <fullName>FREMONT</fullName>
-                <default>false</default>
-                <label>FREMONT</label>
             </value>
             <value>
                 <fullName>GENNUM</fullName>
@@ -114,16 +109,6 @@
                 <fullName>KODEOS</fullName>
                 <default>false</default>
                 <label>KODEOS</label>
-            </value>
-            <value>
-                <fullName>LASER ENTERPRISE</fullName>
-                <default>false</default>
-                <label>LASER ENTERPRISE</label>
-            </value>
-            <value>
-                <fullName>LIGHTSMYTH</fullName>
-                <default>false</default>
-                <label>LIGHTSMYTH</label>
             </value>
             <value>
                 <fullName>MICROSEMI</fullName>
@@ -199,6 +184,116 @@
                 <fullName>VIVO</fullName>
                 <default>false</default>
                 <label>VIVO</label>
+            </value>
+            <value>
+                <fullName>LIGHTSMYTH</fullName>
+                <default>false</default>
+                <label>LIGHTSMYTH</label>
+            </value>
+            <value>
+                <fullName>FREMONT</fullName>
+                <default>false</default>
+                <label>FREMONT</label>
+            </value>
+            <value>
+                <fullName>DPI</fullName>
+                <default>false</default>
+                <label>DPI</label>
+            </value>
+            <value>
+                <fullName>UNASSIGNED</fullName>
+                <default>false</default>
+                <label>UNASSIGNED</label>
+            </value>
+            <value>
+                <fullName>AMD</fullName>
+                <default>false</default>
+                <label>AMD</label>
+            </value>
+            <value>
+                <fullName>OPTICAL SYSTEMS</fullName>
+                <default>false</default>
+                <label>OPTICAL SYSTEMS</label>
+            </value>
+            <value>
+                <fullName>SUWTECH</fullName>
+                <default>false</default>
+                <label>SUWTECH</label>
+            </value>
+            <value>
+                <fullName>HIGHYAG</fullName>
+                <default>false</default>
+                <label>HIGHYAG</label>
+            </value>
+            <value>
+                <fullName>MARLOW</fullName>
+                <default>false</default>
+                <label>MARLOW</label>
+            </value>
+            <value>
+                <fullName>INFRARED</fullName>
+                <default>false</default>
+                <label>INFRARED</label>
+            </value>
+            <value>
+                <fullName>PHOTOP</fullName>
+                <default>false</default>
+                <label>PHOTOP</label>
+            </value>
+            <value>
+                <fullName>MCUBED</fullName>
+                <default>false</default>
+                <label>MCUBED</label>
+            </value>
+            <value>
+                <fullName>LASER ENTERPRISE</fullName>
+                <default>false</default>
+                <label>LASER ENTERPRISE</label>
+            </value>
+            <value>
+                <fullName>ACD</fullName>
+                <default>false</default>
+                <label>ACD</label>
+            </value>
+            <value>
+                <fullName>OPDM</fullName>
+                <default>false</default>
+                <label>OPDM</label>
+            </value>
+            <value>
+                <fullName>Optics Products</fullName>
+                <default>false</default>
+                <label>Optics Products</label>
+            </value>
+            <value>
+                <fullName>IPI PRODUCTS</fullName>
+                <default>false</default>
+                <label>IPI PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>NSD</fullName>
+                <default>false</default>
+                <label>NSD</label>
+            </value>
+            <value>
+                <fullName>WSS</fullName>
+                <default>false</default>
+                <label>WSS</label>
+            </value>
+            <value>
+                <fullName>SUW</fullName>
+                <default>false</default>
+                <label>SUW</label>
+            </value>
+            <value>
+                <fullName>PLD</fullName>
+                <default>false</default>
+                <label>PLD</label>
+            </value>
+            <value>
+                <fullName>HPL</fullName>
+                <default>false</default>
+                <label>HPL</label>
             </value>
         </valueSetDefinition>
     </valueSet>

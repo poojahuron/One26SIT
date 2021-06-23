@@ -122,6 +122,7 @@ public class UpdateGlobalUltimateParentBatchTest {
         UpdateGlobalUltimateParentBatch batchObj = new UpdateGlobalUltimateParentBatch();
         DataBase.executeBatch(batchObj);
         Test.stopTest();
+          list<Account> finalList = [select id,Global_Parent_Updated__c from Account where Global_Parent_Updated__c = True]; 
      
     }
 }

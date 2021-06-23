@@ -6790,6 +6790,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Order.MDR_Key__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Order.Name</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -7551,6 +7556,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Order_Line__c.Lot_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Order_Line__c.MDR_Key__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -11497,14 +11507,14 @@
         <layout>Macro-Macro Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Meeting_Reports__c-Call Report Layout</layout>
+        <layout>Meeting_Reports__c-Meeting Reports Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Meeting_Reports__c-Call Report Layout</layout>
+        <layout>Meeting_Reports__c-Meeting Reports Layout</layout>
         <recordType>Meeting_Reports__c.Competitor</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Meeting_Reports__c-Call Report Layout</layout>
+        <layout>Meeting_Reports__c-Meeting Reports Layout</layout>
         <recordType>Meeting_Reports__c.Customer</recordType>
     </layoutAssignments>
     <layoutAssignments>

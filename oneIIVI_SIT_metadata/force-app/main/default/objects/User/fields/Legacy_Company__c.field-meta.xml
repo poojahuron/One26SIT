@@ -29,6 +29,7 @@
             <value>
                 <fullName>Photonics</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>Photonics</label>
             </value>
         </valueSetDefinition>

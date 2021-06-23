@@ -1159,7 +1159,7 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Account.Derived_Region__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1324,7 +1324,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Account.Key_Account__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1346,7 +1346,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Legacy_Id__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -2669,9 +2669,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Contact.Company__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -2714,9 +2714,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Contact.Extension__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -2789,9 +2789,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Contact.Middle_Name__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -2844,9 +2844,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Contact.Secondary_Email__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -6789,6 +6789,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Order.MDR_Key__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Order.Name</field>
         <readable>false</readable>
@@ -6964,12 +6969,12 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Order.Source_System_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Order.Source_System__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -7554,6 +7559,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Order_Line__c.MDR_Key__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Order_Line__c.Market_App__c</field>
         <readable>false</readable>
@@ -7889,12 +7899,12 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Order_Line__c.Source_System_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Order_Line__c.Source_System__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -8419,9 +8429,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Product2.Product_Config__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -11497,14 +11507,14 @@
         <layout>Macro-Macro Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Meeting_Reports__c-Call Report Layout</layout>
+        <layout>Meeting_Reports__c-Meeting Reports Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Meeting_Reports__c-Call Report Layout</layout>
+        <layout>Meeting_Reports__c-Meeting Reports Layout</layout>
         <recordType>Meeting_Reports__c.Competitor</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Meeting_Reports__c-Call Report Layout</layout>
+        <layout>Meeting_Reports__c-Meeting Reports Layout</layout>
         <recordType>Meeting_Reports__c.Customer</recordType>
     </layoutAssignments>
     <layoutAssignments>
@@ -12046,7 +12056,6 @@
     </pageAccesses>
     <recordTypeVisibilities>
         <default>true</default>
-        <personAccountDefault>true</personAccountDefault>
         <recordType>Account.Account</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>

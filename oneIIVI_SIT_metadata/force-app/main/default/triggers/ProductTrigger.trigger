@@ -15,8 +15,8 @@ trigger ProductTrigger on Product2 (before insert, after insert, after update) {
         }
         if(trigger.isBefore && trigger.isInsert){
             /*Commenting the below code as Corp II-VI has confirmed to not migrate
-            *Record types and to remove it's references
-            */
+			*Record types and to remove it's references
+			*/
             //ProductTriggerHelper.updateProductRecordType(trigger.new);
         }
         if(trigger.isUpdate && trigger.isAfter){

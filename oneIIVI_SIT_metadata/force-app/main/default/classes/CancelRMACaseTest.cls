@@ -37,7 +37,6 @@ public class CancelRMACaseTest{
         case c1= new case(Status='Open',RecordTypeId = recordid,Ship_To_Address__c=siteacc.id,Finisar_Sales_Manager__c= u.id,Customer_Name__c=acc1.id,AccountId=acc.id,Requested_Service__c='Loaner Return',CustomerRef_RMANo__c='Test',
                         Outbound_RMA_PO__c='Test',Ship_To_Customer__c=shiptocustomer.id,Return_Reason__c='Rework');
          caseList.add(c1);
-        
         case c2= new case(Status='Open',RecordTypeId = recordid,Ship_To_Address__c=siteacc.id,Finisar_Sales_Manager__c= u.id,Customer_Name__c=acc1.id,AccountId=acc.id,Requested_Service__c='Loaner Return',CustomerRef_RMANo__c='Test',
                         Outbound_RMA_PO__c='Test',Ship_To_Customer__c=shiptocustomer.id ,Return_Reason__c='Rework');
          caseList.add(c2);
