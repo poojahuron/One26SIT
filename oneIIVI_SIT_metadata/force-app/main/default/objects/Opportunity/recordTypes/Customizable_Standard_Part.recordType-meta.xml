@@ -1633,11 +1633,43 @@
     <picklistValues>
         <picklist>Market_Segment__c</picklist>
         <values>
-            <fullName>Consumer</fullName>
+            <fullName>Aerospace %26 Defense</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Datacom</fullName>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Automotive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer Electronics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education and Research Institute</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food %26 Beverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitality</fullName>
             <default>false</default>
         </values>
         <values>
@@ -1645,27 +1677,39 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Medical</fullName>
+            <fullName>LiDAR</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Military%2FAerospace</fullName>
+            <fullName>Life Sciences</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Other</fullName>
+            <fullName>Media</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Security%2FSurveillance</fullName>
+            <fullName>Optical Communications - Datacom</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Telecom</fullName>
+            <fullName>Optical Communications - Telecom</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Test %26 Measurement</fullName>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semiconductor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semiconductor Capital Equip%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensing</fullName>
             <default>false</default>
         </values>
         <values>
@@ -1673,7 +1717,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Video%2FBroadcast</fullName>
+            <fullName>Wireless</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -2606,6 +2650,10 @@
     <picklistValues>
         <picklist>Type</picklist>
         <values>
+            <fullName>Existing Business %E2%80%93 Demand Already Forecasted</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Existing Business - Follow-on</fullName>
             <default>false</default>
         </values>
@@ -2614,7 +2662,11 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Existing Business - Revenue Reduction</fullName>
+            <fullName>New Business - Existing Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Business - New Customer</fullName>
             <default>false</default>
         </values>
     </picklistValues>

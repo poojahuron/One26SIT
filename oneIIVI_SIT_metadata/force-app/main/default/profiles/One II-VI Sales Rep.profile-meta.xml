@@ -1115,8 +1115,13 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Account.Customer_Industry__c</field>
+        <field>Account.Customer_Industry_Deprecated__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Customer_Industry__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -1514,7 +1519,7 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Account.Salesforce_Legacy_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2839,7 +2844,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Contact.Salesforce_Legacy_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -5514,9 +5519,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Meeting_Reports__c.Attendees__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -5936,7 +5941,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Market_Segment__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -11507,14 +11512,14 @@
         <layout>Macro-Macro Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Meeting_Reports__c-Meeting Reports Layout</layout>
+        <layout>Meeting_Reports__c-Call Report Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Meeting_Reports__c-Meeting Reports Layout</layout>
+        <layout>Meeting_Reports__c-Call Report Layout</layout>
         <recordType>Meeting_Reports__c.Competitor</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Meeting_Reports__c-Meeting Reports Layout</layout>
+        <layout>Meeting_Reports__c-Call Report Layout</layout>
         <recordType>Meeting_Reports__c.Customer</recordType>
     </layoutAssignments>
     <layoutAssignments>

@@ -1026,7 +1026,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Account_Key__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -1115,8 +1115,13 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Account.Customer_Industry__c</field>
+        <field>Account.Customer_Industry_Deprecated__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Customer_Industry__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -1516,7 +1521,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Salesforce_Legacy_Id__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -2841,7 +2846,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.Salesforce_Legacy_Id__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -5936,7 +5941,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Market_Segment__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -11360,7 +11365,7 @@
         <recordType>Costing__c.Corp_II_VI_Costing</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Costing__c-Corp II-VI Costing Layout</layout>
+        <layout>Costing__c-Marlow Costing Layout</layout>
         <recordType>Costing__c.Marlow_Costing</recordType>
     </layoutAssignments>
     <layoutAssignments>
