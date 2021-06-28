@@ -8516,12 +8516,12 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Product2.Source_System_Id__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Product2.Source_System__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -11294,6 +11294,21 @@
         <layout>OpportunityRatePlan__c-Opportunity Rate Plan Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Order-PoS Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Order-PoS Layout</layout>
+        <recordType>Order.PoS_Order</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Order-PoS Layout</layout>
+        <recordType>Order.RMA_Order</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Order-PoS Layout</layout>
+        <recordType>Order.Sales_Order</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>OrderRatePlan__c-Order Rate Plan Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -11304,6 +11319,10 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Product_Configuration__mdt-Product Configuration Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Quote-Normal Quote Layout</layout>
+        <recordType>Quote.Quote_Record_Type</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>QuoteRatePlan__c-Quote Rate Plan Layout</layout>

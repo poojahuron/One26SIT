@@ -3,7 +3,7 @@
     <fullName>Customizable_Standard_Part</fullName>
     <active>true</active>
     <businessProcess>Customizable Standard Part</businessProcess>
-    <label>Customizable Standard Part</label>
+    <label>Standard Part (Customizable)</label>
     <picklistValues>
         <picklist>Application__c</picklist>
         <values>

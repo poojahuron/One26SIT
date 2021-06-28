@@ -111,11 +111,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>AccountTriggerHelper</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>AddRatePlanController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>AddRatePlanControllerTest</apexClass>
@@ -123,11 +123,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>AppConstants</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>ApprovalEmailServiceHandler</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>ApprovalEmailServiceHandlerTest</apexClass>
@@ -135,19 +135,19 @@
     </classAccesses>
     <classAccesses>
         <apexClass>AsyncServicesInformaticaComRtPrcCaiLoan</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>AsyncServicesInformaticaComRtPrcCaiQuot</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CSVFileUtil</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CancelRMACase</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CancelRMACaseTest</apexClass>
@@ -155,7 +155,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CaseApprovalEmailServicehandler</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CaseApprovalEmailServicehandlerTest</apexClass>
@@ -163,11 +163,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CaseShareTriggerHelper</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>ChangePasswordController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>ChangePasswordControllerTest</apexClass>
@@ -175,7 +175,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CloneFAFVRecord</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CloneFAFVRecordTest</apexClass>
@@ -187,11 +187,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CloneOppWithDiffCurrecny_Controller</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CloneOpportunityExtension</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CloneOpportunityExtensionTest</apexClass>
@@ -199,7 +199,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CloneQuoteExtension</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CloneQuoteExtensionTest</apexClass>
@@ -207,11 +207,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CommonConstants</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CommunitiesLandingController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CommunitiesLandingControllerTest</apexClass>
@@ -219,7 +219,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CommunitiesLoginController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CommunitiesLoginControllerTest</apexClass>
@@ -227,7 +227,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CommunitiesSelfRegConfirmController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CommunitiesSelfRegConfirmControllerTest</apexClass>
@@ -235,7 +235,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CommunitiesSelfRegController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CommunitiesSelfRegControllerTest</apexClass>
@@ -243,7 +243,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>ContactForGDPR</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>ContactForGDPRTest</apexClass>
@@ -255,7 +255,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>ConversionDetailsHelper</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>ConversionDetailsHelperTest</apexClass>
@@ -263,11 +263,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CreateFVReport</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CreateOrderedPartsForOpp</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CreateOrderedPartsForOppTest</apexClass>
@@ -275,7 +275,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CreateOrderedPartsForOrder</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CreateOrderedPartsForOrderTest</apexClass>
@@ -283,7 +283,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CreateOrderedPartsForQuote</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CreateOrderedPartsForQuoteTest</apexClass>
@@ -291,7 +291,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CreateQuoteController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CreateQuoteControllerTest</apexClass>
@@ -299,7 +299,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CreateSalesOrderInSAP</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CreateSalesOrderInSAPTest</apexClass>
@@ -307,7 +307,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CreateTransferQuote_Controller</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CreateTransferQuote_ControllerTest</apexClass>
@@ -315,11 +315,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CustomLeadConversion</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CustomMetadataLoaderController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CustomMetadataLoaderControllerTest</apexClass>
@@ -327,7 +327,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CustomMetadataUploadController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CustomMetadataUploadControllerTest</apexClass>
@@ -335,7 +335,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>FAFVAnalysisTriggerHelper</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>FAFVAnalysisTriggerHelperTest</apexClass>
@@ -343,7 +343,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>FAFVCustomUI</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>FAFVCustomUITest</apexClass>
@@ -351,7 +351,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>FAFVStatusBatch</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>FAFVStatusBatchTest</apexClass>
@@ -359,7 +359,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>FileUploadController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>FileUploadControllerTest</apexClass>
@@ -367,11 +367,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>ForecastShareTriggerHelper</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>ForecastdataUpdateBatch</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>ForecastdataUpdateBatchTest</apexClass>
@@ -379,7 +379,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>ForgotPasswordController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>ForgotPasswordControllerTest</apexClass>
@@ -387,11 +387,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>GDPREmailController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>GDPREmailServiceHandler</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>GDPREmailServiceHandlerTest</apexClass>
@@ -399,11 +399,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>GlobalParentOwnerBatch_Helper</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>GlobalParentOwnerBatch_Scheduler</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>GlobalParentOwnerBatch_Test</apexClass>
@@ -411,11 +411,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>GlobalParentOwner_Batch</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>GteDependentPicklist</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>GteDependentPicklistTest</apexClass>
@@ -423,15 +423,15 @@
     </classAccesses>
     <classAccesses>
         <apexClass>IndividualRecordHelper</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>JsonUtilities</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>LeadGDPRController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>LeadTriggerTest</apexClass>
@@ -439,7 +439,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>LightningForgotPasswordController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>LightningForgotPasswordControllerTest</apexClass>
@@ -447,7 +447,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>LightningLoginFormController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>LightningLoginFormControllerTest</apexClass>
@@ -455,7 +455,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>LightningSelfRegisterController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>LightningSelfRegisterControllerTest</apexClass>
@@ -463,7 +463,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>LineItemController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>LineItemControllerTest</apexClass>
@@ -471,15 +471,15 @@
     </classAccesses>
     <classAccesses>
         <apexClass>LoanerApprovalController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>LoanerEmailCustomComponentController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>LoanerEmailCustomController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>LoanerIntegrationMockResponse</apexClass>
@@ -491,11 +491,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>LoanerIntegration_Wsdl</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>LoanerOrderlinkbatch</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>LoanerOrderlinkbatchTest</apexClass>
@@ -503,15 +503,15 @@
     </classAccesses>
     <classAccesses>
         <apexClass>LoanerShareTriggerHelper</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>Lookup</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>LookupController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MDWrapperWebServiceMock</apexClass>
@@ -519,71 +519,71 @@
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataApexApiLoader</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataLoader</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataLoaderClient</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataLoaderFactory</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataMapper</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataMapperCustom</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataMapperDefault</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataMapperFactory</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataMapperSimple</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataMapperType</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataMappingInfo</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataMigrationController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataMigrationException</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataObjectCreator</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataOpType</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataResponse</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataService</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataServiceTest</apexClass>
@@ -591,15 +591,15 @@
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataUtil</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataWrapperApiLoader</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MyProfilePageController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MyProfilePageControllerTest</apexClass>
@@ -607,7 +607,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>NewRmaAlertController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>NewRmaAlertControllerTest</apexClass>
@@ -615,7 +615,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>OpportunityBUUpdateBatch</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>OpportunityBUUpdateBatchTest</apexClass>
@@ -627,11 +627,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>OpportunityEmailCustomComponent</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>OpportunityLineItemTriggerHelper</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>OpportunityLineItemTriggerTest</apexClass>
@@ -639,11 +639,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>OpportunityProductHandler</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>OpportunityTeamMemberHelper</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>OpportunityTeamMemberHelper_test</apexClass>
@@ -651,7 +651,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>OpportunityTeamMemberTriggerHelper</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>OpportunityTeamMemberTriggerTest</apexClass>
@@ -659,7 +659,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>OpportunityTriggerHelper</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>OpportunityTriggerTest</apexClass>
@@ -667,7 +667,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>Opportunity_Handler</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>Opportunity_Handler_test</apexClass>
@@ -675,11 +675,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>OrderAndLineItemsAccessBatch</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>OrderAndLineItemsAccessSchedulable</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>OrderAndLineItemsAccessSchedulableTest</apexClass>
@@ -687,11 +687,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>OrderAndLineItemsRmaAccessBatch</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>OrderItemPLMDashboardTriggerHelper</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>OrderRatePlanControllerTest</apexClass>
@@ -699,11 +699,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>OrderRatePlan_Controller</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>PartnerAccountGroupCreationBatch</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>PartnerAccountGroupCreationBatchTest</apexClass>
@@ -715,7 +715,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>PriceListController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>ProductTriggerHelper</apexClass>
@@ -727,19 +727,19 @@
     </classAccesses>
     <classAccesses>
         <apexClass>QuoteApprovalController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>QuoteEmailCustomComponentController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>QuoteItemPLMDashboardTriggerHelper</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>QuoteLineItemController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>QuoteLineItemControllerTest</apexClass>
@@ -747,7 +747,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>QuoteLineItemTriggerHelper</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>QuoteLineItemTriggerTest</apexClass>
@@ -755,11 +755,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>QuoteLinesHelper</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>QuoteNewButtonController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>QuoteNewButtonControllerTest</apexClass>
@@ -767,7 +767,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>QuoteRatePlan_Controller</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>QuoteRatePlan_ControllerTest</apexClass>
@@ -775,7 +775,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>QuoteReminderBatch</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>QuoteReminderBatchTestClass</apexClass>
@@ -783,7 +783,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>QuoteShareTriggerHelper</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>RHX_TEST_Conversion_Details</apexClass>
@@ -795,7 +795,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>RMAValidationService</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>RMAValidationServiceTest</apexClass>
@@ -803,7 +803,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>RecordApprovalController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>RecordApprovalControllerTest</apexClass>
@@ -811,47 +811,47 @@
     </classAccesses>
     <classAccesses>
         <apexClass>RecordApprovalDao</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>RecordsLineItemApprovalHelper</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>ReportNotification</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>RmaRequestCancellation</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>SOQLBuilder</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>SalesOrderUtilClassNew</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>ScheduleQuoteReminder</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>SendEmailsToRSMPLM</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>SendReminderEmailLoaner</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>SendReminderEmailToRSMPLM</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>SiteLoginController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>SiteLoginControllerTest</apexClass>
@@ -859,7 +859,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>SiteRegisterController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>SiteRegisterControllerTest</apexClass>
@@ -867,11 +867,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>SobjectCancellationUnlock</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>StepsTriggerHelper</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>StepsTriggerHelperTest</apexClass>
@@ -879,7 +879,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>TestDataFactory</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>TestDataUtilityClass</apexClass>
@@ -891,7 +891,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>UpdateGlobalParentLookupsBatch</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>UpdateGlobalParentLookupsBatchTest</apexClass>
@@ -899,11 +899,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>UpdateGlobalUltimateParentBatch</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>UpdateGlobalUltimateParentBatchHelper</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>UpdateGlobalUltimateParentBatchTest</apexClass>
@@ -911,7 +911,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>UserTriggerHelper</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>UserTriggerTest</apexClass>
@@ -919,7 +919,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>WTC_Case_Controller</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>WTC_Case_Controller_Test</apexClass>
@@ -927,7 +927,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>WTC_FileAttachments_Controller</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>WTC_Test</apexClass>
@@ -935,11 +935,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>WebserviceClassSalesOrder</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>createFAReports</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>createFAReportsTest</apexClass>
@@ -947,7 +947,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>ordersBatch</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>ordersBatchTest</apexClass>
@@ -955,31 +955,31 @@
     </classAccesses>
     <classAccesses>
         <apexClass>quoteApprovalLock</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>quoteApprovalUnlock</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>servicesInformaticaComRtPrcCaiLoan</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>servicesInformaticaComRtPrcCaiQuot</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>servicesInformaticaComRtPrcSfOraR</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>servicesInformaticaComRtPrcSfOraRInvoke</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>servicesInformaticaComRtPrcSfOraRN</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>servicesInformaticaComRtPrcSfOraRTest</apexClass>
@@ -3376,7 +3376,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Costing__c.Market_AGC__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -8514,12 +8514,12 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Product2.Source_System_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Product2.Source_System__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -9279,9 +9279,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Quote.Template_Name__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -11559,19 +11559,19 @@
         <layout>OpptyTeamMembers_for_RSM__mdt-OpptyTeamMembers for RSM Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Order-Order Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Order-Order Layout</layout>
-        <recordType>Order.Sales_Order</recordType>
+        <layout>Order-PoS Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Order-PoS Layout</layout>
         <recordType>Order.PoS_Order</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Order-RMA Layout</layout>
+        <layout>Order-PoS Layout</layout>
         <recordType>Order.RMA_Order</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Order-PoS Layout</layout>
+        <recordType>Order.Sales_Order</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>OrderItem-Order Product Layout</layout>
@@ -11634,11 +11634,11 @@
         <layout>QuickText-Quick Text Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Quote-Quote Layout</layout>
+        <layout>Quote-Normal Quote Layout</layout>
+        <recordType>Quote.Quote_Record_Type</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Quote-Quote Layout</layout>
-        <recordType>Quote.Quote_Record_Type</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Quote-Quote Read Only Layout</layout>
@@ -11885,179 +11885,179 @@
     </objectPermissions>
     <pageAccesses>
         <apexPage>AccountLookupPage</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>AddBOMToOpportunity</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>AddBOMToOrder</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>AddBOMToQuote</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>AnswersHome</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>BandwidthExceeded</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>CMTMigrator</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>ChangePassword</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>CloneOpportunity</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>CloneQuote</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>CommunitiesLanding</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>CommunitiesLogin</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>CommunitiesSelfReg</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>CommunitiesSelfRegConfirm</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>CommunitiesTemplate</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>CreateQuote</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>CreateSalesOrderSAP</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>CreateTransferQuote</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>CustomMetadataLoader</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>CustomMetadataRecordUploader</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>Exception</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>FAAndFVReport</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>FVAnalysisReport</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>FileNotFound</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>ForgotPassword</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>ForgotPasswordConfirm</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>IdeasHome</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>InMaintenance</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>LeadConvert</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>MyProfilePage</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>OpportunityRatePlan</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>OrderRatePlan</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>QuoteNewButtonPage</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>QuoteRatePlan</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>SiteLogin</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>SiteRegister</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>SiteRegisterConfirm</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>SiteTemplate</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>StdExceptionTemplate</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>Unauthorized</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>UnderConstruction</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>WebToCaseFileAttachments</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>WebToCaseHomepage</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>cloneOppWithdifferentCurrency</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <recordTypeVisibilities>
         <default>true</default>
