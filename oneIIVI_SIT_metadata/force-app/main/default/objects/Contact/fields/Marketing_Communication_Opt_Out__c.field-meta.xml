@@ -3,7 +3,7 @@
     <fullName>Marketing_Communication_Opt_Out__c</fullName>
     <defaultValue>false</defaultValue>
     <externalId>false</externalId>
-    <label>Marketing Communication Opt Out</label>
+    <label>Email Communication</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>

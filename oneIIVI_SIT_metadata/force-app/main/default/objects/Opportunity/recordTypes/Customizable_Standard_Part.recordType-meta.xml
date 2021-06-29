@@ -1761,6 +1761,25 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Marlow_Product_BU__c</picklist>
+        <values>
+            <fullName>Components</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Power</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Systems</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Media__c</picklist>
         <values>
             <fullName>5-Sep</fullName>
@@ -2498,7 +2517,63 @@
     <picklistValues>
         <picklist>Segment__c</picklist>
         <values>
+            <fullName>AdvMat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aftermarket</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Epiworks</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>HighYag</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laser Enterprise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M Cubed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marlow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Material</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Military</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OEM - High Power</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OEM - Low Power</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other %26 University</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Photop</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suwtech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VLOC</fullName>
             <default>false</default>
         </values>
     </picklistValues>

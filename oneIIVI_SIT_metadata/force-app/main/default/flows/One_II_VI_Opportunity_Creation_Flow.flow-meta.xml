@@ -4,13 +4,20 @@
     <assignments>
         <name>AssignAccountInformation</name>
         <label>AssignAccountInformation</label>
-        <locationX>842</locationX>
+        <locationX>843</locationX>
         <locationY>436</locationY>
         <assignmentItems>
             <assignToReference>varCustomerAccountId</assignToReference>
             <operator>Assign</operator>
             <value>
                 <elementReference>getAccount.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>varGlobalAccountId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>getAccount.ParentId</elementReference>
             </value>
         </assignmentItems>
         <connector>
@@ -36,8 +43,8 @@
     <assignments>
         <name>assignGlobalAccount</name>
         <label>assignGlobalAccount</label>
-        <locationX>1821</locationX>
-        <locationY>543</locationY>
+        <locationX>1835</locationX>
+        <locationY>545</locationY>
         <assignmentItems>
             <assignToReference>varGlobalAccountId</assignToReference>
             <operator>Assign</operator>
@@ -101,7 +108,7 @@
         <name>AccountRecT</name>
         <label>AccountRecT</label>
         <locationX>1061</locationX>
-        <locationY>438</locationY>
+        <locationY>437</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Global_Parent</name>
@@ -120,7 +127,7 @@
         </rules>
         <rules>
             <name>Customer</name>
-            <conditionLogic>and</conditionLogic>
+            <conditionLogic>(1 OR 2 OR 3 )AND( (4 AND 5) OR 6) AND 7</conditionLogic>
             <conditions>
                 <leftValueReference>getAccount.RecordType.DeveloperName</leftValueReference>
                 <operator>EqualTo</operator>
@@ -128,20 +135,117 @@
                     <stringValue>Account</stringValue>
                 </rightValue>
             </conditions>
+            <conditions>
+                <leftValueReference>getAccount.RecordType.DeveloperName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Party_Account</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>getAccount.RecordType.DeveloperName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>External_Account</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>getAccount.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Customer</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>LenShippingCountry</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <numberValue>2.0</numberValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>getAccount.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Prospect</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>getAccount.ParentId</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
             <connector>
                 <targetReference>AssignAccountInformation</targetReference>
             </connector>
             <label>Customer</label>
         </rules>
+        <rules>
+            <name>GlobalAccountIsNull</name>
+            <conditionLogic>1 AND (2 OR 3 OR 4)</conditionLogic>
+            <conditions>
+                <leftValueReference>getAccount.ParentId</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>getAccount.RecordType.DeveloperName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Account</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>getAccount.RecordType.DeveloperName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Party_Account</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>getAccount.RecordType.DeveloperName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>External_Account</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>CreatingGlobal</targetReference>
+            </connector>
+            <label>GlobalAccountIsNull</label>
+        </rules>
+        <rules>
+            <name>ShippingCodeIsNull</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>getAccount.Type</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Customer</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>LenShippingCountry</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <numberValue>2.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Shipping</targetReference>
+            </connector>
+            <label>ShippingCodeIsNull</label>
+        </rules>
     </decisions>
     <decisions>
         <name>Create_Opportunity_Yes</name>
         <label>Create Opportunity</label>
-        <locationX>1906</locationX>
-        <locationY>64</locationY>
-        <defaultConnector>
-            <targetReference>Success_Screen</targetReference>
-        </defaultConnector>
+        <locationX>1915</locationX>
+        <locationY>75</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Yes_Create_Opportunity</name>
@@ -254,8 +358,8 @@
     <decisions>
         <name>Found</name>
         <label>Found?</label>
-        <locationX>1511</locationX>
-        <locationY>380</locationY>
+        <locationX>1519</locationX>
+        <locationY>331</locationY>
         <defaultConnector>
             <targetReference>Create_Global_Account</targetReference>
         </defaultConnector>
@@ -274,6 +378,18 @@
                 <targetReference>GlobalParentExists</targetReference>
             </connector>
             <label>Yes</label>
+        </rules>
+        <rules>
+            <name>Customer_has_global</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>getAccount.ParentId</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Customer has global?</label>
         </rules>
     </decisions>
     <decisions>
@@ -462,6 +578,12 @@ TEXT({!$User.Legacy_Company__c})=&quot;Marlow&quot;, &quot;Custom Part&quot;,
         <dataType>String</dataType>
         <expression>{!Global_Parent_Account}+&quot;-Global Parent&quot;</expression>
     </formulas>
+    <formulas>
+        <name>LenShippingCountry</name>
+        <dataType>Number</dataType>
+        <expression>Len({!getAccount.ShippingCountry})</expression>
+        <scale>2</scale>
+    </formulas>
     <interviewLabel>One II-VI Opportunity Creation Flow {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Prospect Account Creation</label>
     <loops>
@@ -552,6 +674,12 @@ TEXT({!$User.Legacy_Company__c})=&quot;Marlow&quot;, &quot;Custom Part&quot;,
             <field>Display_Shipping_Country__c</field>
             <value>
                 <elementReference>Display_Shipping_Country</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Global_Ultimate_Parent__c</field>
+            <value>
+                <elementReference>varGlobalAccountId</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -666,8 +794,8 @@ TEXT({!$User.Legacy_Company__c})=&quot;Marlow&quot;, &quot;Custom Part&quot;,
     <recordCreates>
         <name>CreateOpportunity</name>
         <label>CreateOpportunity</label>
-        <locationX>2049</locationX>
-        <locationY>168</locationY>
+        <locationX>2055</locationX>
+        <locationY>223</locationY>
         <assignRecordIdToReference>varOpportunityId</assignRecordIdToReference>
         <connector>
             <targetReference>Success_Screen</targetReference>
@@ -726,7 +854,7 @@ TEXT({!$User.Legacy_Company__c})=&quot;Marlow&quot;, &quot;Custom Part&quot;,
         <name>getAccount</name>
         <label>getAccount</label>
         <locationX>1069</locationX>
-        <locationY>258</locationY>
+        <locationY>257</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>AccountRecT</targetReference>
@@ -774,7 +902,7 @@ TEXT({!$User.Legacy_Company__c})=&quot;Marlow&quot;, &quot;Custom Part&quot;,
     <recordLookups>
         <name>getRecT</name>
         <label>getRecT</label>
-        <locationX>518</locationX>
+        <locationX>517</locationX>
         <locationY>55</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -801,10 +929,26 @@ TEXT({!$User.Legacy_Company__c})=&quot;Marlow&quot;, &quot;Custom Part&quot;,
     </recordLookups>
     <runInMode>SystemModeWithoutSharing</runInMode>
     <screens>
+        <name>CreatingGlobal</name>
+        <label>CreatingGlobal</label>
+        <locationX>943</locationX>
+        <locationY>631</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>NoGlobal</name>
+            <fieldText>&lt;p&gt;It looks like your customer/top level account does not have an Ultimate Global Parent. Please populate this field before proceeding!&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
         <name>GlobalParentExists</name>
         <label>GlobalParentExists</label>
-        <locationX>1515</locationX>
-        <locationY>545</locationY>
+        <locationX>1591</locationX>
+        <locationY>543</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -1213,11 +1357,27 @@ TEXT({!$User.Legacy_Company__c})=&quot;Marlow&quot;, &quot;Custom Part&quot;,
         <showHeader>true</showHeader>
     </screens>
     <screens>
+        <name>Shipping</name>
+        <label>Shipping</label>
+        <locationX>1143</locationX>
+        <locationY>605</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>UpdateShipping</name>
+            <fieldText>&lt;p&gt;Please ensure that your shipping address is updated for this customer account. It is required for all customer accounts to have a 2 digit ISO country code for shipping country before creating an Opportunity&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
         <name>Success_Screen</name>
         <label>Success Screen</label>
-        <locationX>2401</locationX>
-        <locationY>75</locationY>
-        <allowBack>true</allowBack>
+        <locationX>2186</locationX>
+        <locationY>66</locationY>
+        <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
         <fields>

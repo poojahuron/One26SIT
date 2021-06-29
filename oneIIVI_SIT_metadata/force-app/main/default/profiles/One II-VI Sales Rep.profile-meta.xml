@@ -111,11 +111,15 @@
     </classAccesses>
     <classAccesses>
         <apexClass>AccountTriggerHelper</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>AccountTrigger_Test</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>AddRatePlanController</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>AddRatePlanControllerTest</apexClass>
@@ -123,7 +127,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>AppConstants</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>ApprovalEmailServiceHandler</apexClass>
@@ -143,7 +147,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CSVFileUtil</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CancelRMACase</apexClass>
@@ -187,11 +191,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CloneOppWithDiffCurrecny_Controller</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CloneOpportunityExtension</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CloneOpportunityExtensionTest</apexClass>
@@ -199,7 +203,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CloneQuoteExtension</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CloneQuoteExtensionTest</apexClass>
@@ -243,7 +247,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>ContactForGDPR</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>ContactForGDPRTest</apexClass>
@@ -267,7 +271,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CreateOrderedPartsForOpp</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CreateOrderedPartsForOppTest</apexClass>
@@ -275,7 +279,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CreateOrderedPartsForOrder</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CreateOrderedPartsForOrderTest</apexClass>
@@ -283,7 +287,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CreateOrderedPartsForQuote</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CreateOrderedPartsForQuoteTest</apexClass>
@@ -291,7 +295,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CreateQuoteController</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CreateQuoteControllerTest</apexClass>
@@ -299,7 +303,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CreateSalesOrderInSAP</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CreateSalesOrderInSAPTest</apexClass>
@@ -307,7 +311,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CreateTransferQuote_Controller</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CreateTransferQuote_ControllerTest</apexClass>
@@ -315,11 +319,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CustomLeadConversion</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CustomMetadataLoaderController</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CustomMetadataLoaderControllerTest</apexClass>
@@ -327,7 +331,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CustomMetadataUploadController</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CustomMetadataUploadControllerTest</apexClass>
@@ -399,11 +403,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>GlobalParentOwnerBatch_Helper</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>GlobalParentOwnerBatch_Scheduler</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>GlobalParentOwnerBatch_Test</apexClass>
@@ -411,7 +415,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>GlobalParentOwner_Batch</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>GteDependentPicklist</apexClass>
@@ -423,15 +427,15 @@
     </classAccesses>
     <classAccesses>
         <apexClass>IndividualRecordHelper</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>JsonUtilities</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>LeadGDPRController</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>LeadTriggerTest</apexClass>
@@ -463,7 +467,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>LineItemController</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>LineItemControllerTest</apexClass>
@@ -495,7 +499,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>LoanerOrderlinkbatch</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>LoanerOrderlinkbatchTest</apexClass>
@@ -511,7 +515,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>LookupController</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MDWrapperWebServiceMock</apexClass>
@@ -519,71 +523,71 @@
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataApexApiLoader</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataLoader</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataLoaderClient</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataLoaderFactory</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataMapper</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataMapperCustom</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataMapperDefault</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataMapperFactory</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataMapperSimple</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataMapperType</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataMappingInfo</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataMigrationController</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataMigrationException</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataObjectCreator</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataOpType</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataResponse</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataService</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataServiceTest</apexClass>
@@ -591,11 +595,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataUtil</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MetadataWrapperApiLoader</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MyProfilePageController</apexClass>
@@ -631,7 +635,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>OpportunityLineItemTriggerHelper</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>OpportunityLineItemTriggerTest</apexClass>
@@ -639,11 +643,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>OpportunityProductHandler</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>OpportunityTeamMemberHelper</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>OpportunityTeamMemberHelper_test</apexClass>
@@ -659,7 +663,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>OpportunityTriggerHelper</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>OpportunityTriggerTest</apexClass>
@@ -667,7 +671,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>Opportunity_Handler</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>Opportunity_Handler_test</apexClass>
@@ -690,6 +694,22 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>OrderAndOrderLineBatch_Helper</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>OrderAndOrderLineBatch_Scheduler</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>OrderAndOrderLineBatch_Test</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>OrderAndOrderLine_Batch</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>OrderItemPLMDashboardTriggerHelper</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -699,11 +719,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>OrderRatePlan_Controller</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>PartnerAccountGroupCreationBatch</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>PartnerAccountGroupCreationBatchTest</apexClass>
@@ -739,7 +759,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>QuoteLineItemController</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>QuoteLineItemControllerTest</apexClass>
@@ -747,7 +767,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>QuoteLineItemTriggerHelper</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>QuoteLineItemTriggerTest</apexClass>
@@ -755,11 +775,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>QuoteLinesHelper</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>QuoteNewButtonController</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>QuoteNewButtonControllerTest</apexClass>
@@ -767,7 +787,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>QuoteRatePlan_Controller</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>QuoteRatePlan_ControllerTest</apexClass>
@@ -831,7 +851,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>SalesOrderUtilClassNew</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>ScheduleQuoteReminder</apexClass>
@@ -879,7 +899,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>TestDataFactory</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>TestDataUtilityClass</apexClass>
@@ -891,7 +911,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>UpdateGlobalParentLookupsBatch</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>UpdateGlobalParentLookupsBatchHelper</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>UpdateGlobalParentLookupsBatchTest</apexClass>
@@ -899,11 +923,11 @@
     </classAccesses>
     <classAccesses>
         <apexClass>UpdateGlobalUltimateParentBatch</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>UpdateGlobalUltimateParentBatchHelper</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>UpdateGlobalUltimateParentBatchTest</apexClass>
@@ -919,7 +943,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>WTC_Case_Controller</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>WTC_Case_Controller_Test</apexClass>
@@ -927,7 +951,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>WTC_FileAttachments_Controller</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>WTC_Test</apexClass>
@@ -935,7 +959,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>WebserviceClassSalesOrder</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>createFAReports</apexClass>
@@ -1054,9 +1078,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Account.AnnualRevenue</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1244,6 +1268,16 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Global_Ultimate_Account_Change_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Global_Ultimate_Parent_Owner_Change_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.Global_Ultimate_Parent__c</field>
         <readable>true</readable>
@@ -1329,7 +1363,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Account.Key_Account__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1490,6 +1524,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.Region_Country__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Region_State__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Region__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.SAP_Customer_ID__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1519,7 +1568,7 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Account.Salesforce_Legacy_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2649,14 +2698,14 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Contact.Additional_Fax_Number__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Contact.Additional_Phone_Numbers__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -2804,9 +2853,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Contact.Nickname__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -2829,9 +2878,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Contact.Primary_Contact__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -2844,7 +2893,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Contact.Salesforce_Legacy_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2854,9 +2903,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Contact.Section__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -3345,6 +3394,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Costing__c.Cost_Completion_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Costing__c.Costing_Number__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3436,6 +3490,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Costing__c.Salesforce_Legacy_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Costing__c.Special_Requirements__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -5519,9 +5578,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Meeting_Reports__c.Attendees__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -5956,6 +6015,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Marketing_PN__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Marlow_Product_BU__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -6635,6 +6699,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Order.Batch_Flag__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Order.BillToContactId</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -6761,6 +6830,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Order.Header_Hold_Name__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Order.Integration_Flag__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -6974,12 +7048,12 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Order.Source_System_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Order.Source_System__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -7096,6 +7170,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Order_Line__c.Backlog_Quantity__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Order_Line__c.Batch_Flag__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -7456,6 +7535,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Order_Line__c.II_VI_DE_Long_Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Order_Line__c.Integration_Flag__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -7904,12 +7988,12 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Order_Line__c.Source_System_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Order_Line__c.Source_System__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -8939,9 +9023,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Quote.International_Quote_Clause__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -9059,9 +9143,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Quote.Price_Clause__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -9539,9 +9623,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Quote_Item__c.Lead_Time__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -11358,11 +11442,11 @@
         <recordType>Costing_Quote__c.Master_Costing_Quote</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Costing__c-Costing Layout</layout>
+        <layout>Costing__c-Corp II-VI Costing Layout</layout>
+        <recordType>Costing__c.Corp_II_VI_Costing</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Costing__c-Costing Layout</layout>
-        <recordType>Costing__c.Corp_II_VI_Costing</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Costing__c-Marlow Costing Layout</layout>
@@ -11512,14 +11596,14 @@
         <layout>Macro-Macro Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Meeting_Reports__c-Call Report Layout</layout>
+        <layout>Meeting_Reports__c-Meeting Reports Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Meeting_Reports__c-Call Report Layout</layout>
+        <layout>Meeting_Reports__c-Meeting Reports Layout</layout>
         <recordType>Meeting_Reports__c.Competitor</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Meeting_Reports__c-Call Report Layout</layout>
+        <layout>Meeting_Reports__c-Meeting Reports Layout</layout>
         <recordType>Meeting_Reports__c.Customer</recordType>
     </layoutAssignments>
     <layoutAssignments>
@@ -11559,7 +11643,7 @@
         <layout>OpptyTeamMembers_for_RSM__mdt-OpptyTeamMembers for RSM Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Order-PoS Layout</layout>
+        <layout>Order-Order Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Order-PoS Layout</layout>
@@ -11634,11 +11718,11 @@
         <layout>QuickText-Quick Text Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Quote-Normal Quote Layout</layout>
-        <recordType>Quote.Quote_Record_Type</recordType>
+        <layout>Quote-Quote Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Quote-Quote Layout</layout>
+        <recordType>Quote.Quote_Record_Type</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Quote-Quote Read Only Layout</layout>
@@ -11702,6 +11786,10 @@
     <layoutAssignments>
         <layout>Task-Meeting Report Action Layout</layout>
         <recordType>Task.Meeting_Report_Action</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Task-Meeting Report Action Layout</layout>
+        <recordType>Task.Standard_Tasks</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Task-Task Layout</layout>
@@ -11889,15 +11977,15 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>AddBOMToOpportunity</apexPage>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>AddBOMToOrder</apexPage>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>AddBOMToQuote</apexPage>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>AnswersHome</apexPage>
@@ -11917,11 +12005,11 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>CloneOpportunity</apexPage>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>CloneQuote</apexPage>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>CommunitiesLanding</apexPage>
@@ -11945,15 +12033,15 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>CreateQuote</apexPage>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>CreateSalesOrderSAP</apexPage>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>CreateTransferQuote</apexPage>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>CustomMetadataLoader</apexPage>
@@ -11997,7 +12085,7 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>LeadConvert</apexPage>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>MyProfilePage</apexPage>
@@ -12005,11 +12093,11 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>OpportunityRatePlan</apexPage>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>OrderRatePlan</apexPage>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>QuoteNewButtonPage</apexPage>
@@ -12017,7 +12105,7 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>QuoteRatePlan</apexPage>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>SiteLogin</apexPage>
@@ -12049,15 +12137,15 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>WebToCaseFileAttachments</apexPage>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>WebToCaseHomepage</apexPage>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>cloneOppWithdifferentCurrency</apexPage>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </pageAccesses>
     <recordTypeVisibilities>
         <default>true</default>
@@ -12284,6 +12372,11 @@
         <recordType>Task.Meeting_Report_Action</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Task.Standard_Tasks</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
     <tabVisibilities>
         <tab>standard-Account</tab>
         <visibility>DefaultOn</visibility>
@@ -12476,6 +12569,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>SelectFilesFromSalesforce</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SendExternalEmailAvailable</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

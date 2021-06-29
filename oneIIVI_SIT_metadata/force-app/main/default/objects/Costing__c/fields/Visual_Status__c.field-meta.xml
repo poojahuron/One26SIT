@@ -2,10 +2,10 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Visual_Status__c</fullName>
     <externalId>false</externalId>
-    <formula>IF( ISPICKVAL( Status__c , &quot;Draft&quot;), IMAGE(&quot;/servlet/servlet.FileDownload?file=0157i000000bF7r&quot;, &quot;Yellow Circle&quot;), 
+    <formula>IF( ISPICKVAL( Status__c , &quot;Draft&quot;), IMAGE(&quot;servlet/servlet.FileDownload?file=015M0000000fV9l&quot;, &quot;Yellow Circle&quot;), 
 IF(ISPICKVAL(Status__c, &quot;Submit&quot;), 
-IMAGE(&quot;/servlet/servlet.FileDownload?file=0157i000000bF7w&quot;, &quot;Green Circle&quot;),
-IMAGE(&quot;/servlet/servlet.FileDownload?file=0157i000000bF7r&quot;, &quot;Yellow Circle&quot;)))</formula>
+IMAGE(&quot;servlet/servlet.FileDownload?file=015M0000000lFht&quot;, &quot;Green Circle&quot;),
+IMAGE(&quot;servlet/servlet.FileDownload?file=015M0000000fV9l&quot;, &quot;Yellow Circle&quot;)))</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <inlineHelpText>Yellow = Not yet submitted; Green = Submitted.</inlineHelpText>
     <label>Visual Status</label>
